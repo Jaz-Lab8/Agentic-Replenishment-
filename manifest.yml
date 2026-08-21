@@ -1,0 +1,20 @@
+name=agentic-replenishment-app
+description=Agentic Replenishment GitHub App — automations and webhook handlers for this repo
+url=https://example.com/
+hook_attributes:
+  url: https://example.com/webhooks
+  content_type: json
+public: false
+default_permissions:
+  contents: write
+  issues: write
+  pull_requests: write
+  checks: write
+  metadata: read
+  workflows: write
+default_events:
+  - pull_request
+  - issues
+  - push
+  - check_run
+  - workflow_run
