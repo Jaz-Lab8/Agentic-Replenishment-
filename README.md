@@ -1,1 +1,1 @@
-# Agentic-Replenishment-
+Agentic Ops: Omnichannel Replenishment 
