@@ -1,0 +1,161 @@
+week_start,sku,product_name,category,units_sold,sell_through_units,stockout_flag,on_hand_end_of_week,lead_time_days,moq,unit_cost,unit_price
+2026-03-30,SKU-1001,Classic Cotton Tee - Navy,Apparel,149,149,False,345,14,200,6.5,19.99
+2026-04-06,SKU-1001,Classic Cotton Tee - Navy,Apparel,190,190,False,155,14,200,6.5,19.99
+2026-04-13,SKU-1001,Classic Cotton Tee - Navy,Apparel,191,155,True,0,14,200,6.5,19.99
+2026-04-20,SKU-1001,Classic Cotton Tee - Navy,Apparel,213,0,True,0,14,200,6.5,19.99
+2026-04-27,SKU-1001,Classic Cotton Tee - Navy,Apparel,170,0,True,0,14,200,6.5,19.99
+2026-05-04,SKU-1001,Classic Cotton Tee - Navy,Apparel,174,0,True,0,14,200,6.5,19.99
+2026-05-11,SKU-1001,Classic Cotton Tee - Navy,Apparel,174,0,True,540,14,200,6.5,19.99
+2026-05-18,SKU-1001,Classic Cotton Tee - Navy,Apparel,165,165,False,375,14,200,6.5,19.99
+2026-05-25,SKU-1001,Classic Cotton Tee - Navy,Apparel,118,118,False,257,14,200,6.5,19.99
+2026-06-01,SKU-1001,Classic Cotton Tee - Navy,Apparel,224,224,False,33,14,200,6.5,19.99
+2026-06-08,SKU-1001,Classic Cotton Tee - Navy,Apparel,222,33,True,0,14,200,6.5,19.99
+2026-06-15,SKU-1001,Classic Cotton Tee - Navy,Apparel,154,0,True,0,14,200,6.5,19.99
+2026-06-22,SKU-1001,Classic Cotton Tee - Navy,Apparel,188,0,True,540,14,200,6.5,19.99
+2026-06-29,SKU-1001,Classic Cotton Tee - Navy,Apparel,180,180,False,360,14,200,6.5,19.99
+2026-07-06,SKU-1001,Classic Cotton Tee - Navy,Apparel,183,183,False,177,14,200,6.5,19.99
+2026-07-13,SKU-1001,Classic Cotton Tee - Navy,Apparel,140,140,False,37,14,200,6.5,19.99
+2026-07-20,SKU-1001,Classic Cotton Tee - Navy,Apparel,189,37,True,0,14,200,6.5,19.99
+2026-07-27,SKU-1001,Classic Cotton Tee - Navy,Apparel,229,0,True,0,14,200,6.5,19.99
+2026-08-03,SKU-1001,Classic Cotton Tee - Navy,Apparel,293,0,True,540,14,200,6.5,19.99
+2026-08-10,SKU-1001,Classic Cotton Tee - Navy,Apparel,226,226,False,314,14,200,6.5,19.99
+2026-03-30,SKU-1002,Running Shoe - Men 9,Footwear,148,148,False,228,30,100,22.0,79.99
+2026-04-06,SKU-1002,Running Shoe - Men 9,Footwear,192,192,False,36,30,100,22.0,79.99
+2026-04-13,SKU-1002,Running Shoe - Men 9,Footwear,167,36,True,0,30,100,22.0,79.99
+2026-04-20,SKU-1002,Running Shoe - Men 9,Footwear,177,0,True,0,30,100,22.0,79.99
+2026-04-27,SKU-1002,Running Shoe - Men 9,Footwear,170,0,True,0,30,100,22.0,79.99
+2026-05-04,SKU-1002,Running Shoe - Men 9,Footwear,241,0,True,0,30,100,22.0,79.99
+2026-05-11,SKU-1002,Running Shoe - Men 9,Footwear,190,0,True,540,30,100,22.0,79.99
+2026-05-18,SKU-1002,Running Shoe - Men 9,Footwear,162,162,False,378,30,100,22.0,79.99
+2026-05-25,SKU-1002,Running Shoe - Men 9,Footwear,218,218,False,160,30,100,22.0,79.99
+2026-06-01,SKU-1002,Running Shoe - Men 9,Footwear,160,160,False,0,30,100,22.0,79.99
+2026-06-08,SKU-1002,Running Shoe - Men 9,Footwear,204,0,True,0,30,100,22.0,79.99
+2026-06-15,SKU-1002,Running Shoe - Men 9,Footwear,141,0,True,0,30,100,22.0,79.99
+2026-06-22,SKU-1002,Running Shoe - Men 9,Footwear,161,0,True,540,30,100,22.0,79.99
+2026-06-29,SKU-1002,Running Shoe - Men 9,Footwear,209,209,False,331,30,100,22.0,79.99
+2026-07-06,SKU-1002,Running Shoe - Men 9,Footwear,227,227,False,104,30,100,22.0,79.99
+2026-07-13,SKU-1002,Running Shoe - Men 9,Footwear,212,104,True,0,30,100,22.0,79.99
+2026-07-20,SKU-1002,Running Shoe - Men 9,Footwear,205,0,True,0,30,100,22.0,79.99
+2026-07-27,SKU-1002,Running Shoe - Men 9,Footwear,563,0,True,0,30,100,22.0,79.99
+2026-08-03,SKU-1002,Running Shoe - Men 9,Footwear,462,0,True,540,30,100,22.0,79.99
+2026-08-10,SKU-1002,Running Shoe - Men 9,Footwear,534,534,False,6,30,100,22.0,79.99
+2026-03-30,SKU-1003,Wool Beanie - Charcoal,Accessories,47,47,False,172,21,150,4.0,14.99
+2026-04-06,SKU-1003,Wool Beanie - Charcoal,Accessories,52,52,False,120,21,150,4.0,14.99
+2026-04-13,SKU-1003,Wool Beanie - Charcoal,Accessories,50,50,False,70,21,150,4.0,14.99
+2026-04-20,SKU-1003,Wool Beanie - Charcoal,Accessories,63,63,False,7,21,150,4.0,14.99
+2026-04-27,SKU-1003,Wool Beanie - Charcoal,Accessories,67,7,True,0,21,150,4.0,14.99
+2026-05-04,SKU-1003,Wool Beanie - Charcoal,Accessories,71,0,True,0,21,150,4.0,14.99
+2026-05-11,SKU-1003,Wool Beanie - Charcoal,Accessories,72,0,True,180,21,150,4.0,14.99
+2026-05-18,SKU-1003,Wool Beanie - Charcoal,Accessories,71,71,False,109,21,150,4.0,14.99
+2026-05-25,SKU-1003,Wool Beanie - Charcoal,Accessories,62,62,False,47,21,150,4.0,14.99
+2026-06-01,SKU-1003,Wool Beanie - Charcoal,Accessories,59,47,True,0,21,150,4.0,14.99
+2026-06-08,SKU-1003,Wool Beanie - Charcoal,Accessories,51,0,True,0,21,150,4.0,14.99
+2026-06-15,SKU-1003,Wool Beanie - Charcoal,Accessories,77,0,True,0,21,150,4.0,14.99
+2026-06-22,SKU-1003,Wool Beanie - Charcoal,Accessories,65,0,True,180,21,150,4.0,14.99
+2026-06-29,SKU-1003,Wool Beanie - Charcoal,Accessories,63,63,False,117,21,150,4.0,14.99
+2026-07-06,SKU-1003,Wool Beanie - Charcoal,Accessories,80,80,False,37,21,150,4.0,14.99
+2026-07-13,SKU-1003,Wool Beanie - Charcoal,Accessories,59,37,True,0,21,150,4.0,14.99
+2026-07-20,SKU-1003,Wool Beanie - Charcoal,Accessories,78,0,True,0,21,150,4.0,14.99
+2026-07-27,SKU-1003,Wool Beanie - Charcoal,Accessories,73,0,True,0,21,150,4.0,14.99
+2026-08-03,SKU-1003,Wool Beanie - Charcoal,Accessories,59,0,True,180,21,150,4.0,14.99
+2026-08-10,SKU-1003,Wool Beanie - Charcoal,Accessories,70,70,False,110,21,150,4.0,14.99
+2026-03-30,SKU-1004,Ceramic Mug - Sage Green,Home,7,7,False,13,45,50,3.2,12.99
+2026-04-06,SKU-1004,Ceramic Mug - Sage Green,Home,11,11,False,2,45,50,3.2,12.99
+2026-04-13,SKU-1004,Ceramic Mug - Sage Green,Home,5,2,True,0,45,50,3.2,12.99
+2026-04-20,SKU-1004,Ceramic Mug - Sage Green,Home,11,0,True,0,45,50,3.2,12.99
+2026-04-27,SKU-1004,Ceramic Mug - Sage Green,Home,0,0,False,0,45,50,3.2,12.99
+2026-05-04,SKU-1004,Ceramic Mug - Sage Green,Home,8,0,True,0,45,50,3.2,12.99
+2026-05-11,SKU-1004,Ceramic Mug - Sage Green,Home,6,0,True,0,45,50,3.2,12.99
+2026-05-18,SKU-1004,Ceramic Mug - Sage Green,Home,4,0,True,0,45,50,3.2,12.99
+2026-05-25,SKU-1004,Ceramic Mug - Sage Green,Home,6,0,True,0,45,50,3.2,12.99
+2026-06-01,SKU-1004,Ceramic Mug - Sage Green,Home,0,0,False,0,45,50,3.2,12.99
+2026-06-08,SKU-1004,Ceramic Mug - Sage Green,Home,5,0,True,0,45,50,3.2,12.99
+2026-06-15,SKU-1004,Ceramic Mug - Sage Green,Home,7,0,True,0,45,50,3.2,12.99
+2026-06-22,SKU-1004,Ceramic Mug - Sage Green,Home,11,0,True,0,45,50,3.2,12.99
+2026-06-29,SKU-1004,Ceramic Mug - Sage Green,Home,4,0,True,0,45,50,3.2,12.99
+2026-07-06,SKU-1004,Ceramic Mug - Sage Green,Home,3,0,True,0,45,50,3.2,12.99
+2026-07-13,SKU-1004,Ceramic Mug - Sage Green,Home,4,0,True,0,45,50,3.2,12.99
+2026-07-20,SKU-1004,Ceramic Mug - Sage Green,Home,9,0,True,0,45,50,3.2,12.99
+2026-07-27,SKU-1004,Ceramic Mug - Sage Green,Home,7,0,True,0,45,50,3.2,12.99
+2026-08-03,SKU-1004,Ceramic Mug - Sage Green,Home,4,0,True,0,45,50,3.2,12.99
+2026-08-10,SKU-1004,Ceramic Mug - Sage Green,Home,7,0,True,0,45,50,3.2,12.99
+2026-03-30,SKU-1005,Yoga Mat - Purple,Fitness,72,72,False,155,28,80,9.0,34.99
+2026-04-06,SKU-1005,Yoga Mat - Purple,Fitness,62,62,False,93,28,80,9.0,34.99
+2026-04-13,SKU-1005,Yoga Mat - Purple,Fitness,58,58,False,35,28,80,9.0,34.99
+2026-04-20,SKU-1005,Yoga Mat - Purple,Fitness,68,35,True,0,28,80,9.0,34.99
+2026-04-27,SKU-1005,Yoga Mat - Purple,Fitness,59,0,True,0,28,80,9.0,34.99
+2026-05-04,SKU-1005,Yoga Mat - Purple,Fitness,59,0,True,0,28,80,9.0,34.99
+2026-05-11,SKU-1005,Yoga Mat - Purple,Fitness,75,0,True,180,28,80,9.0,34.99
+2026-05-18,SKU-1005,Yoga Mat - Purple,Fitness,61,61,False,119,28,80,9.0,34.99
+2026-05-25,SKU-1005,Yoga Mat - Purple,Fitness,38,38,False,81,28,80,9.0,34.99
+2026-06-01,SKU-1005,Yoga Mat - Purple,Fitness,68,68,False,13,28,80,9.0,34.99
+2026-06-08,SKU-1005,Yoga Mat - Purple,Fitness,62,13,True,0,28,80,9.0,34.99
+2026-06-15,SKU-1005,Yoga Mat - Purple,Fitness,63,0,True,0,28,80,9.0,34.99
+2026-06-22,SKU-1005,Yoga Mat - Purple,Fitness,71,0,True,180,28,80,9.0,34.99
+2026-06-29,SKU-1005,Yoga Mat - Purple,Fitness,66,66,False,114,28,80,9.0,34.99
+2026-07-06,SKU-1005,Yoga Mat - Purple,Fitness,70,70,False,44,28,80,9.0,34.99
+2026-07-13,SKU-1005,Yoga Mat - Purple,Fitness,48,44,True,0,28,80,9.0,34.99
+2026-07-20,SKU-1005,Yoga Mat - Purple,Fitness,59,0,True,0,28,80,9.0,34.99
+2026-07-27,SKU-1005,Yoga Mat - Purple,Fitness,84,0,True,0,28,80,9.0,34.99
+2026-08-03,SKU-1005,Yoga Mat - Purple,Fitness,70,0,True,180,28,80,9.0,34.99
+2026-08-10,SKU-1005,Yoga Mat - Purple,Fitness,53,53,False,127,56,80,9.0,34.99
+2026-03-30,SKU-1006,Kids Rain Boots - Size 10,Footwear,40,40,False,64,35,100,8.5,29.99
+2026-04-06,SKU-1006,Kids Rain Boots - Size 10,Footwear,55,55,False,9,35,100,8.5,29.99
+2026-04-13,SKU-1006,Kids Rain Boots - Size 10,Footwear,39,9,True,0,35,100,8.5,29.99
+2026-04-20,SKU-1006,Kids Rain Boots - Size 10,Footwear,43,0,True,0,35,100,8.5,29.99
+2026-04-27,SKU-1006,Kids Rain Boots - Size 10,Footwear,41,0,True,0,35,100,8.5,29.99
+2026-05-04,SKU-1006,Kids Rain Boots - Size 10,Footwear,34,0,True,0,35,100,8.5,29.99
+2026-05-11,SKU-1006,Kids Rain Boots - Size 10,Footwear,49,0,True,120,35,100,8.5,29.99
+2026-05-18,SKU-1006,Kids Rain Boots - Size 10,Footwear,47,47,False,73,35,100,8.5,29.99
+2026-05-25,SKU-1006,Kids Rain Boots - Size 10,Footwear,48,48,False,25,35,100,8.5,29.99
+2026-06-01,SKU-1006,Kids Rain Boots - Size 10,Footwear,37,25,True,0,35,100,8.5,29.99
+2026-06-08,SKU-1006,Kids Rain Boots - Size 10,Footwear,53,0,True,0,35,100,8.5,29.99
+2026-06-15,SKU-1006,Kids Rain Boots - Size 10,Footwear,35,0,True,0,35,100,8.5,29.99
+2026-06-22,SKU-1006,Kids Rain Boots - Size 10,Footwear,48,0,True,120,35,100,8.5,29.99
+2026-06-29,SKU-1006,Kids Rain Boots - Size 10,Footwear,60,60,False,60,35,100,8.5,29.99
+2026-07-06,SKU-1006,Kids Rain Boots - Size 10,Footwear,124,60,True,0,35,100,8.5,29.99
+2026-07-13,SKU-1006,Kids Rain Boots - Size 10,Footwear,134,0,True,0,35,100,8.5,29.99
+2026-07-20,SKU-1006,Kids Rain Boots - Size 10,Footwear,150,0,True,0,35,100,8.5,29.99
+2026-07-27,SKU-1006,Kids Rain Boots - Size 10,Footwear,138,0,True,0,35,100,8.5,29.99
+2026-08-03,SKU-1006,Kids Rain Boots - Size 10,Footwear,115,0,True,120,35,100,8.5,29.99
+2026-08-10,SKU-1006,Kids Rain Boots - Size 10,Footwear,153,120,True,0,35,100,8.5,29.99
+2026-03-30,SKU-1007,Enamel Pin Set - Travel,Accessories,7,7,False,12,40,60,2.1,9.99
+2026-04-06,SKU-1007,Enamel Pin Set - Travel,Accessories,2,2,False,10,40,60,2.1,9.99
+2026-04-13,SKU-1007,Enamel Pin Set - Travel,Accessories,8,8,False,2,40,60,2.1,9.99
+2026-04-20,SKU-1007,Enamel Pin Set - Travel,Accessories,5,2,True,0,40,60,2.1,9.99
+2026-04-27,SKU-1007,Enamel Pin Set - Travel,Accessories,4,0,True,0,40,60,2.1,9.99
+2026-05-04,SKU-1007,Enamel Pin Set - Travel,Accessories,2,0,True,0,40,60,2.1,9.99
+2026-05-11,SKU-1007,Enamel Pin Set - Travel,Accessories,4,0,True,0,40,60,2.1,9.99
+2026-05-18,SKU-1007,Enamel Pin Set - Travel,Accessories,8,0,True,0,40,60,2.1,9.99
+2026-05-25,SKU-1007,Enamel Pin Set - Travel,Accessories,9,0,True,0,40,60,2.1,9.99
+2026-06-01,SKU-1007,Enamel Pin Set - Travel,Accessories,7,0,True,0,40,60,2.1,9.99
+2026-06-08,SKU-1007,Enamel Pin Set - Travel,Accessories,10,0,True,0,40,60,2.1,9.99
+2026-06-15,SKU-1007,Enamel Pin Set - Travel,Accessories,15,0,True,0,40,60,2.1,9.99
+2026-06-22,SKU-1007,Enamel Pin Set - Travel,Accessories,4,0,True,0,40,60,2.1,9.99
+2026-06-29,SKU-1007,Enamel Pin Set - Travel,Accessories,5,0,True,0,40,60,2.1,9.99
+2026-07-06,SKU-1007,Enamel Pin Set - Travel,Accessories,0,0,False,0,40,60,2.1,9.99
+2026-07-13,SKU-1007,Enamel Pin Set - Travel,Accessories,10,0,True,0,40,60,2.1,9.99
+2026-07-20,SKU-1007,Enamel Pin Set - Travel,Accessories,10,0,True,0,40,60,2.1,9.99
+2026-07-27,SKU-1007,Enamel Pin Set - Travel,Accessories,2,0,True,0,40,60,2.1,9.99
+2026-08-03,SKU-1007,Enamel Pin Set - Travel,Accessories,8,0,True,0,40,60,2.1,9.99
+2026-08-10,SKU-1007,Enamel Pin Set - Travel,Accessories,10,0,True,0,40,60,2.1,9.99
+2026-03-30,SKU-1008,Insulated Water Bottle - 32oz,Fitness,187,187,False,203,20,150,6.0,24.99
+2026-04-06,SKU-1008,Insulated Water Bottle - 32oz,Fitness,162,162,False,41,20,150,6.0,24.99
+2026-04-13,SKU-1008,Insulated Water Bottle - 32oz,Fitness,234,41,True,0,20,150,6.0,24.99
+2026-04-20,SKU-1008,Insulated Water Bottle - 32oz,Fitness,198,0,True,0,20,150,6.0,24.99
+2026-04-27,SKU-1008,Insulated Water Bottle - 32oz,Fitness,153,0,True,0,20,150,6.0,24.99
+2026-05-04,SKU-1008,Insulated Water Bottle - 32oz,Fitness,207,0,True,0,20,150,6.0,24.99
+2026-05-11,SKU-1008,Insulated Water Bottle - 32oz,Fitness,162,0,True,540,20,150,6.0,24.99
+2026-05-18,SKU-1008,Insulated Water Bottle - 32oz,Fitness,215,215,False,325,20,150,6.0,24.99
+2026-05-25,SKU-1008,Insulated Water Bottle - 32oz,Fitness,228,228,False,97,20,150,6.0,24.99
+2026-06-01,SKU-1008,Insulated Water Bottle - 32oz,Fitness,172,97,True,0,20,150,6.0,24.99
+2026-06-08,SKU-1008,Insulated Water Bottle - 32oz,Fitness,226,0,True,0,20,150,6.0,24.99
+2026-06-15,SKU-1008,Insulated Water Bottle - 32oz,Fitness,212,0,True,0,20,150,6.0,24.99
+2026-06-22,SKU-1008,Insulated Water Bottle - 32oz,Fitness,226,0,True,540,20,150,6.0,24.99
+2026-06-29,SKU-1008,Insulated Water Bottle - 32oz,Fitness,261,261,False,279,20,150,6.0,24.99
+2026-07-06,SKU-1008,Insulated Water Bottle - 32oz,Fitness,197,197,False,82,20,150,6.0,24.99
+2026-07-13,SKU-1008,Insulated Water Bottle - 32oz,Fitness,183,82,True,0,20,150,6.0,24.99
+2026-07-20,SKU-1008,Insulated Water Bottle - 32oz,Fitness,180,0,True,0,20,150,6.0,24.99
+2026-07-27,SKU-1008,Insulated Water Bottle - 32oz,Fitness,184,0,True,0,20,150,6.0,24.99
+2026-08-03,SKU-1008,Insulated Water Bottle - 32oz,Fitness,209,0,True,540,20,150,6.0,24.99
+2026-08-10,SKU-1008,Insulated Water Bottle - 32oz,Fitness,225,225,False,315,20,150,6.0,24.99
