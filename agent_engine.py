@@ -112,6 +112,7 @@ class Decision:
 AUTO_APPROVE_CEILING_UNITS = 300      # orders below this $-impact-free line can auto-approve
 AUTO_APPROVE_MAX_COST = 1500.0        # $ cap for auto-approval
 LONG_TAIL_STOCKOUT_RISK_WEEKS = 8     # long-tail: only reorder if truly needed, escalate more readily
+CRITICAL_INVENTORY_THRESHOLD = 0.5    # on_hand as fraction of lead-time demand
 
 
 def decide(signal: SkuSignal) -> Decision:
@@ -205,9 +206,24 @@ def decide(signal: SkuSignal) -> Decision:
         action = "escalate"
     elif order_cost <= AUTO_APPROVE_MAX_COST and order_qty <= AUTO_APPROVE_CEILING_UNITS:
         action = "auto_approve"
+    # --- NEW SCENARIO: Critically low inventory + stable demand = auto-approve ---
+    elif (
+        signal.on_hand < (demand_forecast * lt_weeks * CRITICAL_INVENTORY_THRESHOLD) and
+        0.8 <= signal.velocity_break_ratio <= 1.2 and  # velocity is stable (not spiking/declining)
+        signal.recent_stockout_weeks == 0 and  # recently recovered, not currently in stockout
+        order_cost <= AUTO_APPROVE_MAX_COST
+    ):
+        action = "auto_approve"
+        trace.append(
+            f"CRITICAL INVENTORY TRIGGER: on_hand ({signal.on_hand}) is critically low "
+            f"(<{CRITICAL_INVENTORY_THRESHOLD:.0%} of lead-time demand = {demand_forecast * lt_weeks * CRITICAL_INVENTORY_THRESHOLD:.0f} units). "
+            f"Demand is stable (velocity ratio {signal.velocity_break_ratio:.2f}x, no recent stockouts). "
+            f"Auto-approving to prevent imminent stockout on predictable SKU."
+        )
     else:
         action = "escalate"
-        reasons.append(f"Order value ${order_cost:,.0f} exceeds auto-approve ceiling (${AUTO_APPROVE_MAX_COST:,.0f}) — needs sign-off.")
+        if order_cost > AUTO_APPROVE_MAX_COST:
+            reasons.append(f"Order value ${order_cost:,.0f} exceeds auto-approve ceiling (${AUTO_APPROVE_MAX_COST:,.0f}) — needs sign-off.")
 
     return Decision(
         sku=signal.sku,
